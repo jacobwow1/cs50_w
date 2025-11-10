@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    background-color:#EFEFD0;
+    background-color:#CDC6AE;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #0D160B;
+    background-color: #38686A;
 }
 
 .navbar a {
     float: right;
-    color: #EFEFD0;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,11 +19,39 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #646F4B;
-    color: #0D160B;
+    background-color: #2589BD;
+    color: black;
 }
 
 .navbar a.active {
-    background-color: #FF6B35;
-    color: #0D160B;
+    background-color: #187795;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.input-text {
+    border-radius: 14px;
+    border: 2px solid #187795;
+    background-color: #A3B4A2;
+    color: black;
+    padding: 15px;
+    width: 500px;
+    height: 18px;
+    font-size: 16px;
+}
+
+.button-center {
+    border-radius: 14px;
+    padding: 16px;
+    font-size: 18px;
+    background-color: #A3B4A2;
+    border: 2px solid #187795;
+    color: black;
 }
